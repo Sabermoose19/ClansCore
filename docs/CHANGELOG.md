@@ -4,7 +4,7 @@
 - Core optionally registers %clanscore_name%, %clanscore_stars%, %clanscore_chatprefix% through PlaceholderAPI. Ordinary lookups use immutable cached membership, with empty output when unclanned.
 - Add a small LPC Paper-renderer adapter for per-viewer clan colours. Exact %clanname% spelling is supported in LPC as combined stars/name/space; it is not a native PAPI expansion token. LPC retains full layout and LuckPerms ownership.
 - Shield message content from token substitution; preserve audiences/cancellation and use thread-local nested event scopes for deferred PAPI fields. No private chat is added.
-- LPC was not built, installed, run or tested, at the user's explicit request. Integration test sources compile but are excluded by default. Only 33 existing Core tests ran. Do not equate compilation with runtime compatibility.
+- LPC was not built, installed, run or tested. Integration test sources compile but are excluded by default. Only 33 existing Core tests ran. Do not equate compilation with runtime compatibility.
 - Stop, replace ClansCore.jar, remove ClansChat.jar and restart. Optional hook switches require restart. No clan-data migration.
 
 # 1.1.0

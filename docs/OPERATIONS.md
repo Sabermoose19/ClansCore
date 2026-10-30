@@ -8,7 +8,7 @@
 4. If desired, independently install trusted LPC/LuckPerms/PlaceholderAPI builds and configure LPC using docs/LPC.md. Core works without them.
 5. Start and inspect logs. No schema migration beyond the existing version-1 schema is required. Core source layouts remain compiled; normal runtime settings retain their dedicated reload command. Integration toggles require restart.
 
-LPC integration is implemented but explicitly untested at the user's request. Existing historical server logs do not establish its compatibility, particularly on Folia. Do not use Bukkit global reload or plugin hot-loaders.
+LPC integration is implemented but runtime-unverified. Existing historical server logs do not establish its compatibility, particularly on Folia. Do not use Bukkit global reload or plugin hot-loaders.
 
 ## Backup
 

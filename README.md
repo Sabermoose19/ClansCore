@@ -23,7 +23,7 @@ The old Chat module and JAR are preserved locally under `retired/` as developer 
 
 ## Validation and compatibility
 
-Current build: **33 existing Core regression tests passed**. LPC integration test sources compile but are excluded by default at the user's explicit request. **LPC was not built, installed, launched or tested.** No LPC compatibility claim is made based on compilation. Historical Paper/Purpur/Folia 26.1.2 smoke results belong to earlier releases and do not validate this integration.
+Current build: **33 existing Core regression tests passed**. LPC integration test sources compile but are excluded by default. **LPC was not built, installed, launched or tested.** No LPC compatibility claim is made based on compilation. Historical Paper/Purpur/Folia 26.1.2 smoke results belong to earlier releases and do not validate this integration.
 
 Minecraft 26.1.2 / Java 25 remains the API target. Core is intended to run independently on Paper, Purpur and Folia. The checked upstream LPC descriptor does not declare Folia support; do not assume that LPC build can run on Folia. Verify any chosen third-party build independently before deployment. No promise is made for untested future releases or 1.21.x.
 

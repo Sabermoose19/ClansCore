@@ -29,4 +29,4 @@ chat-format: "&f<%clanname%{prefix}{username-color}{name}&f> {message}"
 
 %clanname% combines rank stars, actual clan name and its own trailing space; unclanned senders contribute no text/space. It is an LPC-specific alias, because native PlaceholderAPI syntax requires an underscore. The canonical PAPI fields are %clanscore_name%, %clanscore_stars%, %clanscore_chatprefix%. In LPC their values are viewer-relative; elsewhere ordinary PAPI returns plain strings. No private chat, clan tab-list or overhead nameplate features exist.
 
-No automatic LPC config rewrite is performed. The operator controls LPC and must obtain trusted dependencies independently. LPC was not installed or run here, per the user's instruction.
+No automatic LPC config rewrite is performed. The operator controls LPC and must obtain trusted dependencies independently. LPC was not installed or run here.

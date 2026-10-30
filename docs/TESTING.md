@@ -6,7 +6,7 @@ The build runs only existing Core regression tests by default. **33 tests passed
 
 These cover serialized concurrent creation/joining, rank authorization, atomic transfers, confirmations, invite/peace expiry, open/closed limits, mutual relationships, disband cleanup, restart persistence, failed-write cache safety and SQLite locking/constraints. Layout and permission tests cover safe literal values, page completeness, rank sections, system/peace styling, explicit wildcard children, root visibility and /c + who aliases.
 
-**The user explicitly requested that LPC not be tested.** No LPC binary was built, installed or executed. The integration's source tests compile but `LpcIntegrationTest` is excluded in core/pom.xml. Do not describe the integration as verified. The compiled tests include ordinary/PAPI fields, per-viewer renderer decoration, message-token shielding, scope cleanup/concurrency, cancellation/audiences and membership changes, but none were executed.
+No LPC binary was built, installed or executed. The integration's source tests compile but `LpcIntegrationTest` is excluded in core/pom.xml. Do not describe the integration as verified. The compiled tests include ordinary/PAPI fields, per-viewer renderer decoration, message-token shielding, scope cleanup/concurrency, cancellation/audiences and membership changes, but none were executed.
 
 No server was started for release 1.2.0. Logs under test-results/historical belong to earlier releases, which smoke-tested the former Core/Chat combination on Paper 26.1.2 build 74, Purpur 26.1.2 build 2592 and Folia 26.1.2 build 8 with Java 25.0.5+8. Those logs are not LPC evidence. There have been no connected-client tests.
 

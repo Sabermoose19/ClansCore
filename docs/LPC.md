@@ -52,7 +52,7 @@ These optional hooks load only at startup. Install/remove dependencies or change
 
 ## Verification status and sources
 
-**No LPC binary was built, installed, run or tested**, at the user's direction. Existing Core regression tests ran; integration test sources compiled but were excluded. Treat the bridge as implemented but runtime-unverified. We do not assume compilation proves compatibility.
+**No LPC binary was built, installed, run or tested**. Existing Core regression tests ran; integration test sources compiled but were excluded. Treat the bridge as implemented but runtime-unverified. We do not assume compilation proves compatibility.
 
 Official sources inspected:
 
