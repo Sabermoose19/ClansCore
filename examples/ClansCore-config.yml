@@ -1,0 +1,21 @@
+names:
+  min: 3
+  max: 16
+  reserved: [admin, console, server, none, 'null', moderator, staff]
+motto-max: 100
+member-limit: 0
+invite-seconds: 600
+peace-seconds: 86400
+rename-cooldown-seconds: 86400
+date:
+  timezone: UTC
+  format: 'yyyy-MM-dd HH:mm z'
+notifications: true
+# Offer response buttons are private to the receiving Leader, subject to permissions.
+peace-buttons: true
+# Optional hooks are loaded at startup; changes require a full restart.
+integrations:
+  placeholderapi: true
+  lpc: true
+# All message wording/layouts/colours live in api/src/main/java/dev/clans/api/DeveloperStyle.java.
+# Edit source, compile both plugins, and restart; legacy messages/text-replacements keys are ignored.

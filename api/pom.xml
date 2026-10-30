@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>dev.clans</groupId>
+    <artifactId>clans-parent</artifactId>
+    <version>1.2.0</version>
+  </parent>
+  <artifactId>clans-api</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>io.papermc.paper</groupId>
+      <artifactId>paper-api</artifactId>
+    </dependency>
+  </dependencies>
+</project>

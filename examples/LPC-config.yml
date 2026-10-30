@@ -1,0 +1,6 @@
+# LPC owns the format. ClansCore replaces this combined clan/stars token per viewer.
+# The token includes its own trailing space and is empty for an unclanned sender.
+chat-format: "&f<%clanname%{prefix}{username-color}{name}&f> {message}"
+# Equivalent inside LPC: %clanscore_chatprefix%
+# Do not insert a second separating space after either combined token.
+group-formats: {}

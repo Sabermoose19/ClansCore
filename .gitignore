@@ -1,0 +1,25 @@
+.tools/
+**/target/
+.m2/
+.runtime/
+adoptium.json
+/build.log
+
+# Source-only GitHub repository: no compiled plugins, archives, local databases,
+# runtime servers, retired builds or generated test reports.
+/dist/
+/retired/
+/test-results/
+*.jar
+*.zip
+*.class
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+.env
+.env.*
+*.pem
+*.key

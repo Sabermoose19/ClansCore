@@ -1,0 +1,153 @@
+name: ClansCore
+version: 1.2.0
+main: dev.clans.core.ClansCore
+api-version: '26.1.2'
+folia-supported: true
+softdepend: [PlaceholderAPI, LPC]
+description: Persistent reusable clans and public API
+commands:
+  clan:
+    description: Clan commands
+    aliases: [c]
+    permission: 'clanscore.player.help;clanscore.player.create;clanscore.player.info;clanscore.player.members;clanscore.player.list;clanscore.player.invites;clanscore.player.invite;clanscore.player.uninvite;clanscore.player.accept;clanscore.player.deny;clanscore.player.join;clanscore.player.leave;clanscore.player.kick;clanscore.player.promote;clanscore.player.demote;clanscore.player.transfer;clanscore.player.rename;clanscore.player.motto;clanscore.player.open;clanscore.player.close;clanscore.player.enemy;clanscore.player.peace;clanscore.player.peace.accept;clanscore.player.peace.deny;clanscore.player.disband;clanscore.player.confirm;clanscore.player.cancel'
+  clanadmin:
+    description: Clan staff commands
+    permission: 'clanscore.admin.help;clanscore.admin.info;clanscore.admin.rename;clanscore.admin.motto;clanscore.admin.clearmotto;clanscore.admin.remove;clanscore.admin.setrank;clanscore.admin.setleader;clanscore.admin.open;clanscore.admin.close;clanscore.admin.neutral;clanscore.admin.disband;clanscore.admin.confirm;clanscore.admin.cancel;clanscore.admin.reload'
+permissions:
+  clanscore.*:
+    default: op
+    children:
+      clanscore.player.*: true
+      clanscore.admin.*: true
+  clanscore.player.*:
+    default: true
+    children:
+      clanscore.player.help: true
+      clanscore.player.create: true
+      clanscore.player.info: true
+      clanscore.player.members: true
+      clanscore.player.list: true
+      clanscore.player.invites: true
+      clanscore.player.invite: true
+      clanscore.player.uninvite: true
+      clanscore.player.accept: true
+      clanscore.player.deny: true
+      clanscore.player.join: true
+      clanscore.player.leave: true
+      clanscore.player.kick: true
+      clanscore.player.promote: true
+      clanscore.player.demote: true
+      clanscore.player.transfer: true
+      clanscore.player.rename: true
+      clanscore.player.motto: true
+      clanscore.player.open: true
+      clanscore.player.close: true
+      clanscore.player.enemy: true
+      clanscore.player.peace: true
+      clanscore.player.peace.accept: true
+      clanscore.player.peace.deny: true
+      clanscore.player.disband: true
+      clanscore.player.confirm: true
+      clanscore.player.cancel: true
+  clanscore.admin.*:
+    default: op
+    children:
+      clanscore.admin.help: true
+      clanscore.admin.info: true
+      clanscore.admin.rename: true
+      clanscore.admin.motto: true
+      clanscore.admin.clearmotto: true
+      clanscore.admin.remove: true
+      clanscore.admin.setrank: true
+      clanscore.admin.setleader: true
+      clanscore.admin.open: true
+      clanscore.admin.close: true
+      clanscore.admin.neutral: true
+      clanscore.admin.disband: true
+      clanscore.admin.confirm: true
+      clanscore.admin.cancel: true
+      clanscore.admin.reload: true
+  clanscore.player.help:
+    default: true
+  clanscore.player.create:
+    default: true
+  clanscore.player.info:
+    default: true
+  clanscore.player.members:
+    default: true
+  clanscore.player.list:
+    default: true
+  clanscore.player.invites:
+    default: true
+  clanscore.player.invite:
+    default: true
+  clanscore.player.uninvite:
+    default: true
+  clanscore.player.accept:
+    default: true
+  clanscore.player.deny:
+    default: true
+  clanscore.player.join:
+    default: true
+  clanscore.player.leave:
+    default: true
+  clanscore.player.kick:
+    default: true
+  clanscore.player.promote:
+    default: true
+  clanscore.player.demote:
+    default: true
+  clanscore.player.transfer:
+    default: true
+  clanscore.player.rename:
+    default: true
+  clanscore.player.motto:
+    default: true
+  clanscore.player.open:
+    default: true
+  clanscore.player.close:
+    default: true
+  clanscore.player.enemy:
+    default: true
+  clanscore.player.peace:
+    default: true
+  clanscore.player.peace.accept:
+    default: true
+  clanscore.player.peace.deny:
+    default: true
+  clanscore.player.disband:
+    default: true
+  clanscore.player.confirm:
+    default: true
+  clanscore.player.cancel:
+    default: true
+  clanscore.admin.help:
+    default: op
+  clanscore.admin.info:
+    default: op
+  clanscore.admin.rename:
+    default: op
+  clanscore.admin.motto:
+    default: op
+  clanscore.admin.clearmotto:
+    default: op
+  clanscore.admin.remove:
+    default: op
+  clanscore.admin.setrank:
+    default: op
+  clanscore.admin.setleader:
+    default: op
+  clanscore.admin.open:
+    default: op
+  clanscore.admin.close:
+    default: op
+  clanscore.admin.neutral:
+    default: op
+  clanscore.admin.disband:
+    default: op
+  clanscore.admin.confirm:
+    default: op
+  clanscore.admin.cancel:
+    default: op
+  clanscore.admin.reload:
+    default: op
